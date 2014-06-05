@@ -182,15 +182,9 @@ def game_play(current_board, last_person_to_go): # Playing of the game
                 return would_you_like_to_play_again()
             else:
                 game_play(new_board, whose_go_is_it)
-        
+
 
 game_play([[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']], 'player_2')
-            
-        
-        
-
-
-
 
 
 
